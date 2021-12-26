@@ -14,6 +14,21 @@
                         <div class="alert-icon"><i class="flaticon-warning"></i></div>
                         <div class="alert-text">Some fields missed or filled incorrectly , Please correct and try again!</div>
                     </div>
+
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Student</label><br>
+                                    <select id="student_add" type="text" class="form-control form_fee_add_fields select-2" name="remarks" placeholder="" >
+                                        <option value="">Select Student</option>
+                                            <option value="1">Salih</option>
+                                            <option value="1">Sinan</option>
+                                    </select>
+                                <span class="form-text text-muted"></span>
+                            </div>
+                        </div>
+                    </div>
                    
                     <div class="row">
                         <div class="col-md-6">
@@ -83,6 +98,20 @@
                     </div>
                     <input type="hidden" name="fee_id" id="fee_id_edit">
                     <input type="hidden" name="sales_man_id" id="sales_man_id_edit">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label>Student</label><br>
+                                    <select id="student_edit" type="text" class="form-control form_fee_add_fields select-2" name="remarks" placeholder="" >
+                                        <option value="">Select Student</option>
+                                            <option value="1" selected>Salih</option>
+                                            <option value="1">Sinan</option>
+                                    </select>
+                                <span class="form-text text-muted"></span>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="col-md-6">

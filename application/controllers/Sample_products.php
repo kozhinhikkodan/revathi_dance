@@ -1,0 +1,1 @@
+c:\xampp\htdocs\pcm\application\controllers\Sample_products.php

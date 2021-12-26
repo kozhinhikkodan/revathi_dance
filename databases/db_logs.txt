@@ -1,0 +1,10 @@
+CREATE TABLE `pcm`.`location_states` ( `state_id` INT NOT NULL AUTO_INCREMENT , `state_name` TEXT NOT NULL , PRIMARY KEY (`state_id`)) ENGINE = InnoDB;
+
+
+INSERT INTO `location_states`(`state_name`) VALUES ('Andhra Pradesh'),('Arunachal Pradesh'),('Assam'),('Bihar'),('Chhattisgarh'),('Goa'),('Gujarat'),('Haryana'),('Himachal Pradesh'),('Jharkhand'),('Karnataka'),('Kerala'),('Madhya Pradesh'),('Maharashtra'),('Manipur'),('Meghalaya'),('Mizoram'),('Nagaland'),('Odisha'),('Punjab'),('Rajasthan'),('Sikkim'),('Tamil Nadu'),('Telangana'),('Tripura'),('Uttar Pradesh'),('Uttarakhand'),('West Bengal')
+
+
+CREATE TABLE `pcm`.`location_districts` ( `district_id` INT NOT NULL AUTO_INCREMENT , `state_id` INT NOT NULL , `district_name` TEXT NOT NULL , PRIMARY KEY (`district_id`)) ENGINE = InnoDB;
+
+
+INSERT INTO `location_districts`( `state_id`, `district_name`) VALUES (12,'Alappuzha'),(12,'Ernakulam'),(12,'Idukki'),(12,'Kannur'),(12,'Kasaragod'),(12,'Kollam'),(12,'Kottayam'),(12,'Kozhikode'),(12,'Malappuram'),(12,'Palakkad'),(12,'Pathanamthitta'),(12,'Thiruvananthapuram'),(12,'Thrissur'),(12,'Wayanad')

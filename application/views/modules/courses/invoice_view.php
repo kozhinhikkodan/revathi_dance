@@ -18,7 +18,7 @@
     position: absolute;
     top: 30%;
     left: 30%;
-    opacity: 0.1;
+    opacity: 0.16;
     width: 30%;
     z-index: 9999;
   }

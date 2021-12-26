@@ -309,6 +309,7 @@
 </div>
 
 <?php $this->load->view('include_scripts/leave_scripts') ?>
+<?php $this->load->view('include_modals/fee_modals') ?>
 
 
 <script type="text/javascript">

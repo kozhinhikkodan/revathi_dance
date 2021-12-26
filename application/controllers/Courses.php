@@ -43,6 +43,13 @@ class Courses extends CI_Controller {
 		$this->load->view('Index',$this->data);
 	}
 
+	public function receipt()
+	{
+	
+		$this->data['page']='invoice_view';
+		$this->load->view('Index',$this->data);
+	}
+
 
 	public function init()
 	{

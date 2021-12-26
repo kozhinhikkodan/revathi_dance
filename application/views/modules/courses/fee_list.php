@@ -87,7 +87,7 @@
             <td width="10%">25-10-2020 10:19 AM</td>
             <td width="5%">
 
-                <a href="<?= base_url(); ?>student/profile/1" class="btn btn-sm btn-primary m-1"><i class="flaticon2-printer"></i></a>
+                <a href="<?= base_url(); ?>courses/receipt" class="btn btn-sm btn-primary m-1"><i class="flaticon2-printer"></i></a>
                 <a class="btn btn-sm btn-warning m-1" data-toggle="modal" data-target="#fee_edit_modal"><i class="flaticon-edit"></i></a>
                 <a class="btn btn-sm btn-danger m-1 delete_swal_demo"><i class="flaticon-delete"></i></a>
             </td>
@@ -115,7 +115,7 @@
             <td width="10%">24-10-2020 08:08 AM</td>
             <td width="5%">
 
-                <a href="<?= base_url(); ?>student/profile/1" class="btn btn-sm btn-primary m-1"><i class="flaticon2-printer"></i></a>
+                <a href="<?= base_url(); ?>courses/receipt" class="btn btn-sm btn-primary m-1"><i class="flaticon2-printer"></i></a>
                 <a class="btn btn-sm btn-warning m-1" href="<?= base_url() ?>students/edit/1"><i class="flaticon-edit"></i></a>
                 <a class="btn btn-sm btn-danger m-1 delete_swal_demo"><i class="flaticon-delete"></i></a>
             </td>
